@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article class="main-container">
+        <form class="calc-container">
+            <input id="calc_display" type="text" value="">
+            <table>
+                <tr class="top-buttons">
+                    <td><input type="button" value="C" id="reset" onclick="clrDisplay()"></td>
+                    <td><input type="button" value="+/-" onclick="display('+/-')"></td>
+                    <td><input type="button" value="%" onclick="display('%')"></td>
+                    <td><input type="button" value="&divide;" onclick="display('/')"></td>
+                </tr>
+                <tr class="digits">
+                    <td><input type="button" value="7" onclick="display('7')"></td> 
+                    <td><input type="button" value="8" onclick="display('8')"></td> 
+                    <td><input type="button" value="9" onclick="display('9')"></td> 
+                    <td><input type="button" value="x" onclick="display('*')"></td> 
+                </tr>
+                <tr class="digits">
+                    <td><input type="button" value="4" onclick="display('4')"></td> 
+                    <td><input type="button" value="5" onclick="display('5')"></td> 
+                    <td><input type="button" value="6" onclick="display('6')"></td> 
+                    <td><input type="button" value="&ndash;" onclick="display('-')"></td> 
+                </tr>
+                <tr class="digits">
+                    <td><input type="button" value="1" onclick="display('1')"></td> 
+                    <td><input type="button" value="2" onclick="display('2')"></td> 
+                    <td><input type="button" value="3" onclick="display('3')"></td> 
+                    <td><input type="button" value="+" onclick="display('+')"></td> 
+                </tr>
+                <tr class="digits">
+                    <td colspan="2"><input type="button" value="0" class="zero-button" onclick="display('0')"></td> 
+                    <td><input type="button" value="." onclick="display('.')"></td> 
+
+                    <td><input value="=" type="button" onclick="calculate()"></td> 
+                </tr>   
+            </table>
+        </form>
+    </article>    
+        
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/* .main-container {
+    border: 2px solid;
+    border-radius: 50px;
+    width: max-content;
+} */
+
+.calc-container {
+    background-color: black;
+    width: max-content;
+    padding: 10px 10px 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.calc-container input {
+    border: none;
+    margin: 3px;
+}
+
+table [type=button] {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.top-buttons td:not(:last-of-type) input {
+    background-color: rgb(207, 203, 203);
+}
+
+
+
+#reset {
+    font-weight: 600;
+    background-color: rgb(255, 194, 194);
+}
+
+input[type=button]:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#calc_display {
+    color: rgb(188, 232, 243);
+    background-color: rgb(29, 14, 14);
+    width: 265px;
+    height: 80px;
+    font-size: 51px;
+    font-weight: 300;
+    text-align: right;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.digits input {
+    color: white;
+}
+
+
+.digits input {
+    background-color: rgb(97, 93, 93);
+}
+
+td .zero-button {
+    width: 130px;
+    border-radius: 60px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+tr td:last-of-type input {
+    background-color: orange;
+    color: white;
+    font-size-adjust: ;
+}
